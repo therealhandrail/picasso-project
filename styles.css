@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: seashell;
+}
+#title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+h1{
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    font-family: barrio;
+    margin-top: 50px;
+}
+h2{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    font-family: dosis;
+    font-weight: 300;
+}
+#frame{
+    position: relative;
+    width: 960px;
+    height: 540px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: blue;
+    box-shadow: 0px 0px 10px black;
+}
+#sky{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(https://images4.alphacoders.com/846/thumb-1920-84658.jpg);
+    background-size: 200%;
+}
+#grass{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: darkgreen;
+    bottom:0;
+    background-image: url(https://i.pinimg.com/originals/b7/51/99/b75199c581eac1c1811942128df86690.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#moon{
+    position: absolute;
+    width: 20%;
+    height: 37%;
+    background-color: yellow;
+    border-radius: 50%;
+    top: 5%;
+    right: 10%;
+    background-image: url(https://png.pngtree.com/element_pic/17/08/09/8ae155a9e67381b5e75357c2c69e14b3.png);
+    background-size: 130%;
+    background-position: center;
+}
+#building-1{
+    position: absolute;
+    background-color: rgb(37, 20, 39);
+    width: 156px;
+    height: 60%;
+    border-radius: 5px;
+    bottom: 0;
+    left: 80%;
+    z-index: 2;
+}
+#building-2{
+    position: absolute;
+    background-color: rgb(37, 20, 39);
+    width: 165px;
+    height: 40%;
+    border-radius: 5px;
+    bottom: 0px;
+    left: 62%;
+    z-index: 2;
+}
+#building-3{
+    position: absolute;
+    background-color: rgb(76, 52, 78);
+    width: 165px;
+    height: 65%;
+    border-radius: 5px;
+    bottom: 0;
+    left: 69%;
+}
+.windows-group{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+.window-column{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.window{
+    width: 100%;
+    height: 15%;
+    border-radius: 5px;
+    background-color: rgb(255, 205, 112);
+}
+#building-3 .window{
+    background-color: rgb(180, 162, 113);
+}
+#eevee{
+    position: absolute;
+    width: 156px;
+    height: 30%;
+    border-radius: 5px;
+    bottom: 0;
+    right: 70%;
+    z-index: 2;
+    background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full//133.png);
+    background-size: cover;
+}
+#form{
+    margin-top: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: barrio;
+    font-size: 2rem;
+}
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 20px;
+    font-family: dosis;
+    font-weight: 300;
+    text-align: center;
+}
+input[type=email] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 20px;
+    font-family: dosis;
+    font-weight: 300;
+    text-align: center;
+}
+button{
+    width: 10%;
+    background-color: rgb(255, 205, 112);
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 20px;
+    font-family: barrio;
+    font-size: 2rem;
+}
+button:hover{
+    background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/06/pokemon-fan-designs-human-form-for-eevee-based-on-its-abilities.jpg);
+    background-size: 100%;
+    color: aliceblue;
+    background-color: rgb(255, 205, 112);
+
+}
